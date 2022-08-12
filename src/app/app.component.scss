@@ -1,0 +1,28 @@
+li {
+  position: relative;
+  height: 8%;
+}
+
+app-svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// .active_nav #svg-init {
+
+//   path:nth-child(1) {
+
+//     stroke-dasharray: 548;
+//     stroke-dashoffset: 548;
+//     animation: line-animation 3s ease forwards;
+//   }
+
+// }
+
+// @keyframes line-animation {
+//   to {
+//     stroke-dashoffset: 0;
+//   }
+// }

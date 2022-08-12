@@ -1,0 +1,49 @@
+<div class="square" style="height: 400px; width: 400px; background-color: pink">
+  <button (click)="drawer.open()">Openey</button>
+  <button (click)="drawer.close()">Closey</button>
+</div>
+<nav-drawer #drawer [opened]="false" [position]="position" [mode]="mode">
+  <ul style="padding: 0 20px">
+    <li>
+      <img src="../assets/jim.jpg" height="80px" width="80px" alt="" />
+      <a class="remove-text-animation" routerLink="/alt">WAKN</a>
+    </li>
+    <li>
+      <img src="../assets/jim.jpg" height="80px" width="80px" alt="" />
+      <a class="remove-text-animation" routerLink="/home">KNAW</a>
+    </li>
+    <li>
+      <img src="../assets/jim.jpg" height="80px" width="80px" alt="" />
+      <a class="remove-text-animation">WANK</a>
+    </li>
+  </ul>
+</nav-drawer>
+
+<!-- <nav-drawer>
+  <h1>any sign</h1>
+  <ul style="padding: 0 20px">
+    <li>
+      <img src="../assets/jim.jpg" height="80px" width="80px" alt="" />
+      <a class="remove-text-animation">WAKN</a>
+    </li>
+    <li>
+      <img src="../assets/jim.jpg" height="80px" width="80px" alt="" />
+      <a class="remove-text-animation">KNAW</a>
+    </li>
+    <li>
+      <img src="../assets/jim.jpg" height="80px" width="80px" alt="" />
+      <a class="remove-text-animation">WANK</a>
+    </li>
+  </ul>
+</nav-drawer> -->
+<!-- <app-nav-container> -->
+
+<!-- <app-nav-content>
+    <div
+      class="square"
+      style="height: 400px; width: 400px; background-color: green"
+    >
+
+    </div>
+  </app-nav-content>
+</app-nav-container> -->

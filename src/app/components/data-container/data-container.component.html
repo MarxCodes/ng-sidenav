@@ -1,0 +1,28 @@
+<app-data-drawer #enlargeAnimation [attr.data-state]="large">
+  <h1 #textRef>HERE GOES NOTHING</h1>
+  <div class="bg"></div>
+  <div class="content-small content">
+    <img src="../../../assets/jim.jpg" height="80px" width="80px" />
+    <img src="../../../assets/jim.jpg" height="80px" width="80px" />
+    <img src="../../../assets/jim.jpg" height="80px" width="80px" />
+  </div>
+  <div class="content-large content"></div>
+  <ul>
+    <li>
+      <img src="../../../assets/jim.jpg" height="80px" width="80px" />
+      <a routerLink="/alt">Milk</a>
+    </li>
+    <li>
+      <img src="../../../assets/jim.jpg" height="80px" width="80px" />
+      <a routerLink="/home">Malk</a>
+    </li>
+    <li>
+      <img src="../../../assets/jim.jpg" height="80px" width="80px" />
+      <a>Mulk</a>
+    </li>
+  </ul>
+</app-data-drawer>
+
+<app-data-content>
+  <router-outlet></router-outlet>
+</app-data-content>
